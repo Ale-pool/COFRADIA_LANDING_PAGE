@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSOLACIÓN</title>
+    <!-- con favicon la imagen del logo aparece en la barra de navegación -->
+    <link rel="icon" type="image/jpeg" href="img/Consolación.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Consolación</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#nosotros" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#eventos" class="nav-link">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#equipo" class="nav-link">Equipo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#galeria" class="nav-link">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contactanos" class="nav-link">Contáctanos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección principal -->
+    <main class="main-section">
+        <div class="main-container">
+            <!-- Logo ornamentado -->
+            <div class="logo-section">
+                <div class="logo-ornament">
+                    <h1 class="main-title">Consolación</h1>
+                    <div class="ornamental-circle">
+                        <div class="cross-symbol">✠</div>
+                    </div>
+                    <h2 class="anniversary">10 AÑOS</h2>
+                </div>
+            </div>
+            
+            <!-- Imagen del grupo -->
+            <div class="image-section">
+                <img src="img/cofradia1.png" alt="Grupo Cofradía Consolación" class="group-image">
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Nosotros -->
+    <section id="nosotros" class="about-section">
+        <div class="about-container">
+            <h2 class="section-title">Nosotros</h2>
+            
+            <div class="about-content">
+                <!-- Video aéreo -->
+                <div class="video-section">
+                    <div class="video-container">
+                        <video id="aboutVideo" poster="img/cofra#.jpg ">
+                            <source src="video/procesion-aerea.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento video.
+                        </video>
+                        <div class="play-button" onclick="playVideo()">
+                            <div class="play-icon">▶</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Información -->
+                <div class="info-section">
+                    <!-- Historia -->
+                    <div class="info-card">
+                        <div class="icon-container">
+                            <div class="icon-scroll">
+                                <div class="scroll-top"></div>
+                                <div class="scroll-body">
+                                    <div class="scroll-lines"></div>
+                                </div>
+                                <div class="scroll-bottom"></div>
+                            </div>
+                        </div>
+                        <div class="info-content">
+                            <h3>Historia</h3>
+                            <p>Nacida en el año 2017 de un grupo de amigos y familiares</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Misión -->
+                    <div class="info-card">
+                        <div class="icon-container">
+                            <div class="icon-target">
+                                <div class="target-ring ring1"></div>
+                                <div class="target-ring ring2"></div>
+                                <div class="target-ring ring3"></div>
+                                <div class="target-center"></div>
+                            </div>
+                        </div>
+                        <div class="info-content">
+                            <h3>Misión</h3>
+                            <p>Nuestra misión es vivir y transmitir la pasión, muerte y resurrección de Cristo a través de la solemnidad de las procesiones y el servicio fraterno</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Compromiso -->
+                    <div class="info-card">
+                        <div class="icon-container">
+                            <div class="icon-gears">
+                                <div class="gear gear1">
+                                    <div class="gear-tooth"></div>
+                                    <div class="gear-tooth"></div>
+                                    <div class="gear-tooth"></div>
+                                    <div class="gear-tooth"></div>
+                                    <div class="gear-tooth"></div>
+                                    <div class="gear-tooth"></div>
+                                </div>
+                                <div class="gear gear2">
+                                    <div class="gear-tooth"></div>
+                                    <div class="gear-tooth"></div>
+                                    <div class="gear-tooth"></div>
+                                    <div class="gear-tooth"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-content">
+                            <h3>Compromiso</h3>
+                            <p>Nos comprometemos a mantener viva la tradición, fortaleciendo la fe de nuestros hermanos y promoviendo el servicio a la comunidad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
