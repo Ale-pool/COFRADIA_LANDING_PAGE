@@ -146,6 +146,468 @@
         </div>
     </section>
 
+    <!-- Sección de Eventos -->
+    <section id="eventos" class="events-section">
+        <div class="events-container">
+            <h2 class="section-title">EVENTOS</h2>
+            
+            <div class="events-content">
+                <!-- Logo ornamentado lateral -->
+                <!-- <div class="events-logo">
+                    <div class="events-logo-ornament">
+                        <h3 class="events-logo-title">Consolación</h3>
+                        <div class="events-ornamental-circle">
+                            <div class="events-cross-symbol">✠</div>
+                        </div>
+                        <h4 class="events-anniversary">10 AÑOS</h4>
+                    </div>
+                </div> -->
+
+                <div class="events-logo">
+                    <div class="">
+                        <img  class="logo-image" src="img/Consolación.jpg" alt="">
+                    </div>
+                </div>
+                
+                <!-- Tarjetas de eventos -->
+                <div class="events-cards">
+                    <!-- Semana Santa -->
+                    <div class="event-card">
+                        <div class="event-image">
+                            <img src="img/cena.jpg" alt="Semana Santa" class="event-img">
+                        </div>
+                        <div class="event-info">
+                            <h3 class="event-title">Semana Santa</h3>
+                            <p class="event-description">Conmemoración anual de la pasión, muerte y resurrección de Jesucristo.</p>
+                            <button class="event-btn" onclick="showEventInfo('semana-santa')">Más Información</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Señora de los Dolores -->
+                    <div class="event-card">
+                        <div class="event-image">
+                            <img src="img/cofra.jpg" alt="Señora de los Dolores" class="event-img">
+                        </div>
+                        <div class="event-info">
+                            <h3 class="event-title">Señora de los Dolores</h3>
+                            <p class="event-description">Veneración especial a la Virgen María en su advocación de los Dolores.</p>
+                            <button class="event-btn" onclick="showEventInfo('senora-dolores')">Más Información</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nuestro Equipo -->
+    <section id="equipo" class="team-section">
+        <div class="team-container">
+            <h2 class="section-title">Nuestro Equipo</h2>
+            
+            <div class="team-carousel-container">
+                <!-- Controles de navegación -->
+                <button class="carousel-btn carousel-prev" onclick="moveTeamCarousel(-1)">
+                    <span>&#8249;</span>
+                </button>
+                <button class="carousel-btn carousel-next" onclick="moveTeamCarousel(1)">
+                    <span>&#8250;</span>
+                </button>
+                
+                <!-- Carrusel de miembros -->
+                <div class="team-carousel">
+                    <div class="team-carousel-track" id="teamCarouselTrack">
+                        <!-- Fundadores -->
+                        <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/julianarango.png" alt="Julian Arango" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Julian Arango</h3>
+                                <p class="member-role">Fundador</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/daniel_arango.png" alt="Daniel Arango" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Daniel Arango</h3>
+                                <p class="member-role">Fundador</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Miembros -->
+                        <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/jaramillo.png" alt="Daniel Jaramillo" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Daniel Jaramillo</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/legi.png" alt="Legi" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Legi</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Miembros adicionales - puedes agregar más aquí -->
+                        <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/valentina.png" alt="Valentina" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Valentina</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/alex.png" alt="Alex" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Alex</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/bairon.png" alt="Bairon" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Bairon</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/piedad.png" alt="Sofia Ramírez" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Piedad</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+
+                         <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/jhony.png" alt="Jhony" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Jhony</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+
+                        <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/chichon.png" alt="chichon" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">chichon</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+
+                        <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/acueducto.png" alt="acueducto" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">acueducto</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+
+                           <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/novi_acued.png" alt="acueducto" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Novia-acueducto</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+
+                              <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/mauricio.png" alt="Mauricio" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Mauricio</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+
+                              <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/lucho.png" alt="lucho" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Lucho</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+
+                              <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/ana.png" alt="Ana" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Ana</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+
+                              <div class="team-member-card">
+                            <div class="member-image">
+                                <img src="img/camilo.png" alt="Camilo" class="member-img">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Camilo</h3>
+                                <p class="member-role">Cofrade</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Indicadores -->
+                <div class="carousel-indicators" id="teamCarouselIndicators">
+                    <!-- Se generan dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="gallery-section">
+        <div class="gallery-container">
+            <h2 class="section-title">Galería</h2>
+            
+            <!-- Filtros de categorías -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="procesion">Procesiones</button>
+                <button class="filter-btn" data-filter="eventos">Eventos</button>
+                <button class="filter-btn" data-filter="equipo">Equipo</button>
+            </div>
+            
+            <!-- Grid de imágenes -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Procesiones -->
+                <div class="gallery-item" data-category="procesion" data-src="img/galeria1.jpg">
+                    <img src="img/1.jpg" alt="Procesión Semana Santa" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Procesión Semana Santa</h3>
+                            <p>Viernes Santo</p>
+                        </div>
+                        <div class="gallery-zoom">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="procesion" data-src="img/galeria2.jpg">
+                    <img src="img/cofra.jpg" alt="Señora de los Dolores" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Señora de los Dolores</h3>
+                            <p>Advocación Mariana</p>
+                        </div>
+                        <div class="gallery-zoom">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Eventos -->
+                <div class="gallery-item" data-category="eventos" data-src="img/galeria3.jpg">
+                    <img src="img/cofradia17.jpg" alt="Procesión Nocturna" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Procesión Nocturna</h3>
+                            <p>Ambiente Solemne</p>
+                        </div>
+                        <div class="gallery-zoom">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="equipo" data-src="img/galeria4.jpg">
+                    <img src="img/cofradia1.png" alt="Hermanos Cofrades" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Hermanos Cofrades</h3>
+                            <p>Unión Fraternal</p>
+                        </div>
+                        <div class="gallery-zoom">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="procesion" data-src="img/galeria5.jpg">
+                    <img src="img/cofradia24.jpg" alt="Procesión Día" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Procesión de Día</h3>
+                            <p>Domingo de Ramos</p>
+                        </div>
+                        <div class="gallery-zoom">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="eventos" data-src="img/galeria6.jpg">
+                    <img src="img/cofradia25.jpg" alt="Altar Preparación" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Preparación Altar</h3>
+                            <p>Decoración Floral</p>
+                        </div>
+                        <div class="gallery-zoom">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="equipo" data-src="img/galeria7.jpg">
+                    <img src="img/cofradia14.jpg" alt="Cofrades Trabajo" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Cofrades en Acción</h3>
+                            <p>Trabajo en Equipo</p>
+                        </div>
+                        <div class="gallery-zoom">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="eventos" data-src="img/galeria8.jpg">
+                    <img src="img/cofradia27.jpg" alt="Grupo Cofradía" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Encuentro Fraternal</h3>
+                            <p>Celebración</p>
+                        </div>
+                        <div class="gallery-zoom">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="galleryLightbox" class="lightbox-modal">
+        <div class="lightbox-container">
+            <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+            <button class="lightbox-prev" onclick="navigateLightbox(-1)">&#8249;</button>
+            <button class="lightbox-next" onclick="navigateLightbox(1)">&#8250;</button>
+            
+            <div class="lightbox-content">
+                <img id="lightboxImage" src="" alt="" class="lightbox-img">
+                <div class="lightbox-info">
+                    <h3 id="lightboxTitle"></h3>
+                    <p id="lightboxDescription"></p>
+                </div>
+            </div>
+            
+            <div class="lightbox-counter">
+                <span id="lightboxCounter"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Sección principal del footer -->
+            <div class="footer-content">
+                <!-- Logo y información de la cofradía -->
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="footer-logo-ornament">
+                            <img class="logo-image" src="img/Consolación.jpg" alt="">
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Una hermandad unida por la fe, dedicada a preservar y transmitir las tradiciones de la Semana Santa con devoción y fraternidad.
+                    </p>
+                </div>
+                
+                <!-- Enlaces rápidos -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Inicio</a></li>
+                        <li><a href="#nosotros" class="footer-link">Nosotros</a></li>
+                        <li><a href="#eventos" class="footer-link">Eventos</a></li>
+                        <li><a href="#equipo" class="footer-link">Nuestro Equipo</a></li>
+                        <li><a href="#galeria" class="footer-link">Galería</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contacto -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Contáctanos</h4>
+                    <div class="footer-contact">
+                        <p class="contact-info">
+                            <span class="contact-label">📍 Ubicación:</span>
+                            Envigado, Colombia
+                        </p>
+                        <p class="contact-info">
+                            <span class="contact-label">📧 Email:</span>
+                            info@consolacion.com
+                        </p>
+                        
+                        <!-- WhatsApp Contact -->
+                        <div class="whatsapp-contact">
+                            <a href="#" id="whatsappLink" class="whatsapp-btn" onclick="openWhatsApp()">
+                                <div class="whatsapp-icon">
+                                    <svg viewBox="0 0 24 24" width="24" height="24">
+                                        <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.525 3.488"/>
+                                    </svg>
+                                </div>
+                                <span>Contáctanos por WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Línea separadora -->
+            <div class="footer-divider"></div>
+            
+            <!-- Derechos reservados -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Cofradía Consolación. Todos los derechos reservados.</p>
+                    <p class="footer-subtitle">Preservando la tradición con fe y devoción.</p>
+                </div>
+                <div class="footer-year">
+                    <span class="current-year">2016 - 2025</span>
+                    <span class="anniversary-badge">10 Años de Historia</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
