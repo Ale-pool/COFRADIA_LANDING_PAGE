@@ -1,4 +1,4 @@
-✝️ Consolación
+✝️ Consolación (Grupo religioso)
 
 Consolación es una landing page desarrollada para una cofradía religiosa, creada con el objetivo de transmitir su identidad espiritual, difundir sus valores y mantener informada a la comunidad sobre sus actividades y tradiciones.
 
